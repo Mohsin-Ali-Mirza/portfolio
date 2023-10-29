@@ -255,8 +255,10 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "PERSONAL PROJECTS",
-  projects: [
+  subtitle: "PERSONAL PROJECTS FOR ",
+  highlight_dark: "GAME DEVELOPMENT",
+  highlight_light: "MACHINE LEARNING",
+  projects_light: [
     {
       image: require("./assets/images/gifs/sonic.gif"),
       projectName: "Sign Language Detection",
@@ -271,41 +273,93 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Segmentation In Traffic Systems",
+      projectDesc: "Demonstrated SAM’s effectiveness in generating segmentation masks for complex objects in challenging lighting and weather conditions",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Notebook",
+          url: "https://github.com/Mohsin-Ali-Mirza/SAM--Segmentation_Anything_Meta-_Traffic"
         },
         
       ]
     },
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Passenger Detection In Subway Systems",
+      projectDesc: " Developed a real-time object detection system using the YOLOv8 to enhance train safety by detecting people in the danger zone near train tracks.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Notebook",
+          url: "https://github.com/Mohsin-Ali-Mirza/Real-time-Object-Detection-for-Train-Safety-YOLOv8"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Cycle‑GANS Sytle Transfer",
+      projectDesc: " Developed and implemented a Style-Transfer Cycle GANs project, utilizing deep learning techniques to transfer artistic styles between images.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Notebook",
+          url: "https://github.com/Mohsin-Ali-Mirza/University/tree/main/Sem6/Ai/Project"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Flappy-Bird Genetic Ai",
+      projectDesc: " The AI was able to learn how to play the game on its own by leveraging deep learning techniques and evolving its neural network architecture",
+      footerLink: [
+        {
+          name: "Not Available",
+          url: ""
         }
         //  you can add extra buttons here.
       ]
     },
   ],
+
+  projects_dark: [
+    {
+      image: require("./assets/images/gifs/sonic.gif"),
+      projectName: "Call Of Objects",
+      projectDesc: "Individually designed and developed a 2D retro-styled Platformer game with interactive game mechanics",
+      footerLink: [
+        {
+          name: "Show Video",
+          url: "https://mohsinalimirxa.wixsite.com/experience/callofobjects"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/gifs/sonic.gif"),
+      projectName: "Soft Ball Shooter",
+      projectDesc: "Developed a small shooter Virtual Reality Game on Occulus Rift",
+      footerLink: [
+        {
+          name: "Show Video",
+          url: "https://www.linkedin.com/posts/mohsin-ali-mirza_occulusrift-virtualreality-quest2-activity-6973711415580717056-hXDz?utm_source=share&utm_medium=member_desktop"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Hyper Casual Game",
+      projectDesc: "  Deployed a 3D hyper casual game with idle stacking game mechanic for Mindstorm Studios Summer Internship Program",
+      footerLink: [
+        {
+          name: "Show Video",
+          url: "https://www.linkedin.com/posts/mohsin-ali-mirza_design-opportunity-experience-activity-6981904027349344256-CEZ4?utm_source=share&utm_medium=member_desktop"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+  ],
+
   display: true // Set false to hide this section, defaults to true
 };
 

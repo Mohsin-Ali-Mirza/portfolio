@@ -194,8 +194,8 @@ const educationInfo = {
 
 const reelLink = {
   display: true, //Set it to true to show Proficiency Section
-  darkVideoLink : "https://www.youtube.com/watch?v=5yb2N3pnztU",
-  videoLink: "https://www.youtube.com/watch?v=IPX-L2F78fU" //Replace this with the link to your portfolio reel video
+  darkVideoLink : "https://www.youtube.com/watch?v=Sox-nsKzZCk",
+  videoLink: "https://youtu.be/GuQRgCTwnXQ" //Replace this with the link to your portfolio reel video
 };
 
 // Work experience section
@@ -260,7 +260,7 @@ const bigProjects = {
   highlight_light: "MACHINE LEARNING",
   projects_light: [
     {
-      image: require("./assets/images/gifs/sonic.gif"),
+      image: require("./assets/images/gifs/Sign-Detection.gif"),
       projectName: "Sign Language Detection",
       projectDesc: "Developed and trained an LSTM-based Sign Language Detection using TensorFlow",
       footerLink: [
@@ -272,7 +272,19 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/gifs/Llama.gif"),
+      projectName: "Llama2 chatbot",
+      projectDesc: "Utilized Llama2 7b model for LLM-based chatbot",
+      footerLink: [
+        {
+          name: "Visit Notebook",
+          url: "https://github.com/Mohsin-Ali-Mirza/SAM--Segmentation_Anything_Meta-_Traffic"
+        },
+        
+      ]
+    },
+    {
+      image: require("./assets/images/gifs/Sam.gif"),
       projectName: "Segmentation In Traffic Systems",
       projectDesc: "Demonstrated SAM’s effectiveness in generating segmentation masks for complex objects in challenging lighting and weather conditions",
       footerLink: [
@@ -284,7 +296,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/gifs/yolov8.gif"),
       projectName: "Passenger Detection In Subway Systems",
       projectDesc: " Developed a real-time object detection system using the YOLOv8 to enhance train safety by detecting people in the danger zone near train tracks.",
       footerLink: [
@@ -296,7 +308,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/gifs/Cycle-GANS.gif"),
       projectName: "Cycle‑GANS Sytle Transfer",
       projectDesc: " Developed and implemented a Style-Transfer Cycle GANs project, utilizing deep learning techniques to transfer artistic styles between images.",
       footerLink: [
@@ -308,13 +320,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Flappy-Bird Genetic Ai",
-      projectDesc: " The AI was able to learn how to play the game on its own by leveraging deep learning techniques and evolving its neural network architecture",
+      image: require("./assets/images/gifs/flappy-bird-ai.gif"),
+      projectName: "Flappy Bird Genetic AI",
+      projectDesc: "The AI was able to learn how to play the game on its own by leveraging deep learning techniques and evolving its neural network architecture",
       footerLink: [
         {
-          name: "Not Available",
-          url: ""
+          name: "Show Video",
+          url: "https://mohsinalimirxa.wixsite.com/experience/copy-of-shaders-animation"
         }
         //  you can add extra buttons here.
       ]
@@ -323,7 +335,7 @@ const bigProjects = {
 
   projects_dark: [
     {
-      image: require("./assets/images/gifs/sonic.gif"),
+      image: require("./assets/images/gifs/call-of-objects.gif"),
       projectName: "Call Of Objects",
       projectDesc: "Individually designed and developed a 2D retro-styled Platformer game with interactive game mechanics",
       footerLink: [
@@ -331,11 +343,10 @@ const bigProjects = {
           name: "Show Video",
           url: "https://mohsinalimirxa.wixsite.com/experience/callofobjects"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/gifs/sonic.gif"),
+      image: require("./assets/images/gifs/occulus.gif"),
       projectName: "Soft Ball Shooter",
       projectDesc: "Developed a small shooter Virtual Reality Game on Occulus Rift",
       footerLink: [
@@ -343,11 +354,78 @@ const bigProjects = {
           name: "Show Video",
           url: "https://www.linkedin.com/posts/mohsin-ali-mirza_occulusrift-virtualreality-quest2-activity-6973711415580717056-hXDz?utm_source=share&utm_medium=member_desktop"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/gifs/cinematic.gif"),
+      projectName: "Last Of Us - Unreal",
+      projectDesc: "Fan-made short Cinematic Reel made on Unreal Engine 5",
+      footerLink: [
+        {
+          name: "Show Video",
+          url: "https://www.artstation.com/artwork/JvvEoz"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/gifs/flappy-bird-ai.gif"),
+      projectName: "Flappy Bird Genetic AI",
+      projectDesc: "The AI was able to learn how to play the game on its own by leveraging deep learning techniques and evolving its neural network architecture",
+      footerLink: [
+        {
+          name: "Show Video",
+          url: "https://mohsinalimirxa.wixsite.com/experience/copy-of-shaders-animation"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/gifs/leonardo.gif"),
+      projectName: "Mona Lisa AR",
+      projectDesc: "Created an Augmented Reality app for art enthusiasts to admire the beauty of Leonardo Dicaprico’s paintings and listen to audio documentation",
+      footerLink: [
+        {
+          name: "Show Video",
+          url: "https://www.linkedin.com/posts/mohsin-ali-mirza_augmentedreality-technology-development-activity-6960603981882531841-fnFF?utm_source=share&utm_medium=member_desktop"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/gifs/shader-animation-1.gif"),
+      projectName: "Unity Shader Animation",
+      projectDesc: "Tried some Unity Shader's for fun",
+      footerLink: [
+        {
+          name: "",
+          url: "Not Available"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/gifs/shader-animation-2.gif"),
+      projectName: "Fire Animation",
+      projectDesc: "A mini lighting animation project done on Unity",
+      footerLink: [
+        {
+          name: "Show Video",
+          url: "https://www.linkedin.com/posts/mohsin-ali-mirza_i-decided-to-create-a-short-animation-on-activity-6958441023979032576-hDpI?utm_source=share&utm_medium=member_desktop"
+        }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/gifs/rematch.gif"),
+      projectName: "Rematch",
+      projectDesc: "A stress relief 3D fighting game built with in app purchases",
+      footerLink: [
+        {
+          name: "Show Video",
+          url: "https://mohsinalimirxa.wixsite.com/experience/rematch"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/gifs/hyper-casual.gif"),
       projectName: "Hyper Casual Game",
       projectDesc: "  Deployed a 3D hyper casual game with idle stacking game mechanic for Mindstorm Studios Summer Internship Program",
       footerLink: [
@@ -358,6 +436,18 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+    {
+      image: require("./assets/images/gifs/anatomy-ar.gif"),
+      projectName: "Anatomy AR",
+      projectDesc: "A short Augmented Reality app for human anatomy to easily show the skeletal and the muscles of a human body to the users",
+      footerLink: [
+        {
+          name: "Show Video",
+          url: "https://mohsinalimirxa.wixsite.com/experience/ar-demo"
+        }
+        //  you can add extra buttons here.
+      ]
+    }
   ],
 
   display: true // Set false to hide this section, defaults to true

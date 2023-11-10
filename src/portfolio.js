@@ -81,93 +81,113 @@ https://fontawesome.com/icons?d=gallery */
 
 softwareSkills: [
   {
-    skillName: "html-5",
-    fontAwesomeClassname: "fab fa-html5"
+    skillName: "unity",
+    skillIcon: require("./assets/images/skills/unity.png")
   },
   {
-    skillName: "css3",
-    fontAwesomeClassname: "fab fa-css3-alt"
+    skillName: "unreal",
+    skillIcon: require("./assets/images/skills/unreal.png")
   },
   {
-    skillName: "sass",
-    fontAwesomeClassname: "fab fa-sass"
+    skillName: "tensorflow",
+    skillIcon: require("./assets/images/skills/tensorflow.png")
   },
   {
-    skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js"
+    skillName: "pytorch",
+    skillIcon: require("./assets/images/skills/pytorch.png")
   },
   {
-    skillName: "reactjs",
-    fontAwesomeClassname: "fab fa-react"
+    skillName: "opencv",
+    skillIcon: require("./assets/images/skills/opencv.png")
   },
   {
-    skillName: "nodejs",
-    fontAwesomeClassname: "fab fa-node"
-  },
-  {
-    skillName: "swift",
-    fontAwesomeClassname: "fab fa-swift"
-  },
-  {
-    skillName: "npm",
-    fontAwesomeClassname: "fab fa-npm"
-  },
-  {
-    skillName: "sql-database",
-    fontAwesomeClassname: "fas fa-database"
+    skillName: "azure",
+    skillIcon: require("./assets/images/skills/azure.png")
   },
   {
     skillName: "aws",
-    fontAwesomeClassname: "fab fa-aws"
-  },
-  {
-    skillName: "firebase",
-    fontAwesomeClassname: "fas fa-fire"
-  },
-  {
-    skillName: "python",
-    fontAwesomeClassname: "fab fa-python"
-  },
-  {
-    skillName: "docker",
-    fontAwesomeClassname: "fab fa-docker"
-  },
-  {
-    skillName: "sass",
-    fontAwesomeClassname: "fab fa-sass"
-  },
-  {
-    skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js"
-  },
-  {
-    skillName: "reactjs",
-    fontAwesomeClassname: "fab fa-react"
-  },
-  {
-    skillName: "nodejs",
-    fontAwesomeClassname: "fab fa-node"
-  },
-  {
-    skillName: "swift",
-    fontAwesomeClassname: "fab fa-swift"
-  },
-  {
-    skillName: "npm",
-    fontAwesomeClassname: "fab fa-npm"
-  },
-  {
-    skillName: "sql-database",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "aws",
-    fontAwesomeClassname: "fab fa-aws"
-  },
-  {
-    skillName: "firebase",
-    fontAwesomeClassname: "fas fa-fire"
+    skillIcon: require("./assets/images/skills/aws.png")
   }
+  // {
+  //   skillName: "sass",
+  //   fontAwesomeClassname: "fab fa-sass"
+  // },
+  // {
+  //   skillName: "JavaScript",
+  //   fontAwesomeClassname: "fab fa-js"
+  // },
+  // {
+  //   skillName: "reactjs",
+  //   fontAwesomeClassname: "fab fa-react"
+  // },
+  // {
+  //   skillName: "nodejs",
+  //   fontAwesomeClassname: "fab fa-node"
+  // },
+  // {
+  //   skillName: "swift",
+  //   fontAwesomeClassname: "fab fa-swift"
+  // },
+  // {
+  //   skillName: "npm",
+  //   fontAwesomeClassname: "fab fa-npm"
+  // },
+  // {
+  //   skillName: "sql-database",
+  //   fontAwesomeClassname: "fas fa-database"
+  // },
+  // {
+  //   skillName: "aws",
+  //   fontAwesomeClassname: "fab fa-aws"
+  // },
+  // {
+  //   skillName: "firebase",
+  //   fontAwesomeClassname: "fas fa-fire"
+  // },
+  // {
+  //   skillName: "python",
+  //   fontAwesomeClassname: "fab fa-python"
+  // },
+  // {
+  //   skillName: "docker",
+  //   fontAwesomeClassname: "fab fa-docker"
+  // },
+  // {
+  //   skillName: "sass",
+  //   fontAwesomeClassname: "fab fa-sass"
+  // },
+  // {
+  //   skillName: "JavaScript",
+  //   fontAwesomeClassname: "fab fa-js"
+  // },
+  // {
+  //   skillName: "reactjs",
+  //   fontAwesomeClassname: "fab fa-react"
+  // },
+  // {
+  //   skillName: "nodejs",
+  //   fontAwesomeClassname: "fab fa-node"
+  // },
+  // {
+  //   skillName: "swift",
+  //   fontAwesomeClassname: "fab fa-swift"
+  // },
+  // {
+  //   skillName: "npm",
+  //   fontAwesomeClassname: "fab fa-npm"
+  // },
+  // {
+  //   skillName: "sql-database",
+  //   fontAwesomeClassname: "fas fa-database"
+  // },
+  // {
+  //   skillName: "aws",
+  //   fontAwesomeClassname: "fab fa-aws"
+  // },
+  // {
+  //   skillName: "firebase",
+  //   fontAwesomeClassname: "fas fa-fire"
+  // }
 ],
 display: true // Set false to hide this section, defaults to true
 };
@@ -206,7 +226,7 @@ const workExperiences = {
     {
       role: "Machine Learning Intern",
       company: "Syslab.Ai",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/Syslab-logo.png"),
       date: "June 2023 – August 2023",
       desc: "",
       descBullets: [
@@ -261,6 +281,8 @@ const bigProjects = {
   projects_light: [
     {
       image: require("./assets/images/gifs/Sign-Detection.gif"),
+      link: "https://i.imgur.com/0VrX1Id.gif",
+      showLink: true,                               //Show icon from directory or from a link?
       projectName: "Sign Language Detection",
       projectDesc: "Developed and trained an LSTM-based Sign Language Detection using TensorFlow",
       footerLink: [
@@ -273,18 +295,22 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/Llama.gif"),
+      link: "https://i.imgur.com/UYsQmDx.gif",
+      showLink: true,
       projectName: "Llama2 chatbot",
       projectDesc: "Utilized Llama2 7b model for LLM-based chatbot",
       footerLink: [
         {
-          name: "Visit Notebook",
-          url: "https://github.com/Mohsin-Ali-Mirza/SAM--Segmentation_Anything_Meta-_Traffic"
+          name: "Not Available",
+          url: ""
         },
         
       ]
     },
     {
       image: require("./assets/images/gifs/Sam.gif"),
+      link: "https://i.imgur.com/CPLV0ix.gif",
+      showLink: true,
       projectName: "Segmentation In Traffic Systems",
       projectDesc: "Demonstrated SAM’s effectiveness in generating segmentation masks for complex objects in challenging lighting and weather conditions",
       footerLink: [
@@ -297,6 +323,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/yolov8.gif"),
+      link: "https://i.imgur.com/yp99h7J.gif",
+      showLink: false,
       projectName: "Passenger Detection In Subway Systems",
       projectDesc: " Developed a real-time object detection system using the YOLOv8 to enhance train safety by detecting people in the danger zone near train tracks.",
       footerLink: [
@@ -309,6 +337,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/Cycle-GANS.gif"),
+      link: "https://i.imgur.com/1hrd7YB.gif",
+      showLink: true,
       projectName: "Cycle‑GANS Sytle Transfer",
       projectDesc: " Developed and implemented a Style-Transfer Cycle GANs project, utilizing deep learning techniques to transfer artistic styles between images.",
       footerLink: [
@@ -321,6 +351,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/flappy-bird-ai.gif"),
+      link: "https://i.imgur.com/zLOatiY.gif",
+      showLink: true,
       projectName: "Flappy Bird Genetic AI",
       projectDesc: "The AI was able to learn how to play the game on its own by leveraging deep learning techniques and evolving its neural network architecture",
       footerLink: [
@@ -336,6 +368,8 @@ const bigProjects = {
   projects_dark: [
     {
       image: require("./assets/images/gifs/call-of-objects.gif"),
+      link: "https://i.imgur.com/VKjVt8M.gif",
+      showLink: true,
       projectName: "Call Of Objects",
       projectDesc: "Individually designed and developed a 2D retro-styled Platformer game with interactive game mechanics",
       footerLink: [
@@ -347,6 +381,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/occulus.gif"),
+      link: "https://i.imgur.com/JCL83Jc.gif",
+      showLink: true,
       projectName: "Soft Ball Shooter",
       projectDesc: "Developed a small shooter Virtual Reality Game on Occulus Rift",
       footerLink: [
@@ -358,6 +394,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/cinematic.gif"),
+      link: "https://i.imgur.com/JeiqGu0.gif",
+      showLink: true,
       projectName: "Last Of Us - Unreal",
       projectDesc: "Fan-made short Cinematic Reel made on Unreal Engine 5",
       footerLink: [
@@ -369,6 +407,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/flappy-bird-ai.gif"),
+      link: "https://i.imgur.com/zLOatiY.gif",
+      showLink: true,
       projectName: "Flappy Bird Genetic AI",
       projectDesc: "The AI was able to learn how to play the game on its own by leveraging deep learning techniques and evolving its neural network architecture",
       footerLink: [
@@ -380,6 +420,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/leonardo.gif"),
+      link: "https://i.imgur.com/gHW1oo9.gif",
+      showLink: true,
       projectName: "Mona Lisa AR",
       projectDesc: "Created an Augmented Reality app for art enthusiasts to admire the beauty of Leonardo Dicaprico’s paintings and listen to audio documentation",
       footerLink: [
@@ -391,6 +433,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/shader-animation-1.gif"),
+      link: "https://i.imgur.com/CvcNKhC.gif",
+      showLink: true,
       projectName: "Unity Shader Animation",
       projectDesc: "Tried some Unity Shader's for fun",
       footerLink: [
@@ -402,6 +446,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/shader-animation-2.gif"),
+      link: "https://i.imgur.com/kOqq3ot.gif",
+      showLink: true,
       projectName: "Fire Animation",
       projectDesc: "A mini lighting animation project done on Unity",
       footerLink: [
@@ -414,6 +460,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/rematch.gif"),
+      link: "https://i.imgur.com/5CFHYQM.gif",
+      showLink: true,
       projectName: "Rematch",
       projectDesc: "A stress relief 3D fighting game built with in app purchases",
       footerLink: [
@@ -426,6 +474,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/hyper-casual.gif"),
+      link: "https://i.imgur.com/HkS7kQZ.gif",
+      showLink: true,
       projectName: "Hyper Casual Game",
       projectDesc: "  Deployed a 3D hyper casual game with idle stacking game mechanic for Mindstorm Studios Summer Internship Program",
       footerLink: [
@@ -438,6 +488,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/gifs/anatomy-ar.gif"),
+      link: "https://i.imgur.com/0IfWAEo.gif",
+      showLink: true,
       projectName: "Anatomy AR",
       projectDesc: "A short Augmented Reality app for human anatomy to easily show the skeletal and the muscles of a human body to the users",
       footerLink: [

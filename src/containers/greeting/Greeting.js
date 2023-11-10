@@ -51,7 +51,7 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-              <Button text={isDark ? "Click Me 🎮" : "Click Me 🤖"}  onClick={handleClickMe}/>
+              <Button text={isDark ? "Switch To Ai 🤖" : "Switch To Game Dev 🎮"}  onClick={handleClickMe}/>
                 {greeting.resumeLink && (
                   <Button
                     text="See my resume"

@@ -15,7 +15,10 @@ export default function SoftwareSkill() {
                 name={skills.skillName}
               >
                 <div className="skill-circle">
-                  <i className={skills.fontAwesomeClassname}></i>
+                  <img
+                    src={skills.skillIcon}
+                    alt={skills.skillName}
+                  />
                 </div>
                 {/* <p>{skills.skillName}</p> */}
               </li>

@@ -282,7 +282,7 @@ const bigProjects = {
     {
       image: require("./assets/images/gifs/Sign-Detection.gif"),
       link: "https://i.imgur.com/0VrX1Id.gif",
-      showLink: true,                               //Show icon from directory or from a link?
+      showLink: false,                               //Show icon from directory or from a link?
       projectName: "Sign Language Detection",
       projectDesc: "Developed and trained an LSTM-based Sign Language Detection using TensorFlow",
       footerLink: [
@@ -296,7 +296,7 @@ const bigProjects = {
     {
       image: require("./assets/images/gifs/Llama.gif"),
       link: "https://i.imgur.com/UYsQmDx.gif",
-      showLink: true,
+      showLink: false,
       projectName: "Llama2 chatbot",
       projectDesc: "Utilized Llama2 7b model for LLM-based chatbot",
       footerLink: [
@@ -369,7 +369,7 @@ const bigProjects = {
     {
       image: require("./assets/images/gifs/call-of-objects.gif"),
       link: "https://i.imgur.com/VKjVt8M.gif",
-      showLink: true,
+      showLink: false,
       projectName: "Call Of Objects",
       projectDesc: "Individually designed and developed a 2D retro-styled Platformer game with interactive game mechanics",
       footerLink: [
@@ -395,7 +395,7 @@ const bigProjects = {
     {
       image: require("./assets/images/gifs/cinematic.gif"),
       link: "https://i.imgur.com/JeiqGu0.gif",
-      showLink: true,
+      showLink: false,
       projectName: "Last Of Us - Unreal",
       projectDesc: "Fan-made short Cinematic Reel made on Unreal Engine 5",
       footerLink: [

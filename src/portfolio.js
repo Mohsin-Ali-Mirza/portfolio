@@ -193,6 +193,10 @@ softwareSkills: [
     skillIcon: require("./assets/images/skills/openmp.png")
   },
   {
+    skillName: "c",
+    skillIcon: require("./assets/images/skills/c.png")
+  },
+  {
     skillName: "c++",
     skillIcon: require("./assets/images/skills/c_plus_plus.png")
   },
@@ -201,8 +205,8 @@ softwareSkills: [
     skillIcon: require("./assets/images/skills/c_sharp.png")
   },
   {
-    skillName: "c",
-    skillIcon: require("./assets/images/skills/c.png")
+    skillName: "dotnet",
+    skillIcon: require("./assets/images/skills/dotnet.png")
   },
   {
     skillName: "python",

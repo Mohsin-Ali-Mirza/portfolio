@@ -23,6 +23,7 @@ export default function Greeting() {
   const handleClickMe = () => {
     styleContext.changeTheme(); 
     setChecked(!isChecked);
+    window.location.reload(); //Reload on changing theme
   };
 
   return (

@@ -16,6 +16,7 @@ const ToggleSwitch = () => {
         onChange={() => {
           styleContext.changeTheme();
           setChecked(!isChecked);
+          window.location.reload();  //Reloading on changing theme
         }}
       />
       <span className="slider round">

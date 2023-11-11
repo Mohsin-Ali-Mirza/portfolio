@@ -221,8 +221,8 @@ softwareSkills: [
     skillIcon: require("./assets/images/skills/css.png")
   },
   {
-    skillName: "js",
-    skillIcon: require("./assets/images/skills/js.png")
+    skillName: "javascript",
+    skillIcon: require("./assets/images/skills/javascript.png")
   }
 
 

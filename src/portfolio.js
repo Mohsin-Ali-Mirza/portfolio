@@ -105,9 +105,120 @@ softwareSkills: [
     skillIcon: require("./assets/images/skills/azure.png")
   },
   {
-    skillName: "aws",
-    skillIcon: require("./assets/images/skills/aws.png")
+    skillName: "c++",
+    skillIcon: require("./assets/images/skills/c_plus_plus.png")
+  },
+  {
+    skillName: "c#",
+    skillIcon: require("./assets/images/skills/c_sharp.png")
+  },
+  {
+    skillName: "c",
+    skillIcon: require("./assets/images/skills/c.png")
+  },
+  {
+    skillName: "html",
+    skillIcon: require("./assets/images/skills/html.png")
+  },
+  {
+    skillName: "css",
+    skillIcon: require("./assets/images/skills/css.png")
+  },
+  {
+    skillName: "js",
+    skillIcon: require("./assets/images/skills/js.png")
+  },
+  {
+    skillName: "mongodb",
+    skillIcon: require("./assets/images/skills/mongodb.png")
+  },
+  {
+    skillName: "express",
+    skillIcon: require("./assets/images/skills/express.png")
+  },
+  {
+    skillName: "react",
+    skillIcon: require("./assets/images/skills/react.png")
+  },
+  {
+    skillName: "nodejs",
+    skillIcon: require("./assets/images/skills/nodejs.png")
+  },
+  {
+    skillName: "blender",
+    skillIcon: require("./assets/images/skills/blender.png")
+  },
+  {
+    skillName: "photoshop",
+    skillIcon: require("./assets/images/skills/photoshop.png")
+  },
+  {
+    skillName: "premiere_pro",
+    skillIcon: require("./assets/images/skills/premiere_pro.png")
+  },
+  {
+    skillName: "python",
+    skillIcon: require("./assets/images/skills/python.png")
+  },
+  {
+    skillName: "seaborn",
+    skillIcon: require("./assets/images/skills/seaborn.png")
+  },
+  {
+    skillName: "git",
+    skillIcon: require("./assets/images/skills/git.png")
+  },
+  {
+    skillName: "firebase",
+    skillIcon: require("./assets/images/skills/firebase.png")
+  },
+  {
+    skillName: "mysql",
+    skillIcon: require("./assets/images/skills/mysql.png")
+  },
+  {
+    skillName: "sql",
+    skillIcon: require("./assets/images/skills/sql.png")
+  },
+  {
+    skillName: "openmp",
+    skillIcon: require("./assets/images/skills/openmp.png")
+  },
+  {
+    skillName: "pandas",
+    skillIcon: require("./assets/images/skills/pandas.png")
+  },
+  {
+    skillName: "yolov8",
+    skillIcon: require("./assets/images/skills/yolov8.png")
+  },
+  {
+    skillName: "matlab",
+    skillIcon: require("./assets/images/skills/matlab.png")
+  },
+  {
+    skillName: "matplotlib",
+    skillIcon: require("./assets/images/skills/matplotlib.png")
+  },
+  {
+    skillName: "Jira",
+    skillIcon: require("./assets/images/skills/jira.png")
+  },
+  {
+    skillName: "Occulus",
+    skillIcon: require("./assets/images/skills/occulus.png")
+  },
+  {
+    skillName: "Vuforia",
+    skillIcon: require("./assets/images/skills/vuforia.png")
+  },
+  {
+    skillName: "docker",
+    skillIcon: require("./assets/images/skills/docker.png")
   }
+
+
+  
   // {
   //   skillName: "sass",
   //   fontAwesomeClassname: "fab fa-sass"

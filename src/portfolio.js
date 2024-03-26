@@ -320,7 +320,7 @@ const educationInfo = {
       logo: require("./assets/images/fastLogo.png"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "August 2020 - August 2024",
-      desc: "Current CGPA: 3.82",
+      desc: "Current CGPA: 3.7",
       descBullets: [
         "Rector List (4 SGPA)",
         "5 Consecutive Dean's List (> 3.5 SGPA)"
@@ -407,7 +407,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Notebook",
-          url: "https://github.com/Mohsin-Ali-Mirza/University/tree/main/Sem6/DLP/Project/SourceCode"
+          url: "https://github.com/Mohsin-Ali-Mirza/Sign-Language-Detection-LSTM"
         }
         //  you can add extra buttons here.
       ]
@@ -463,7 +463,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Notebook",
-          url: "https://github.com/Mohsin-Ali-Mirza/University/tree/main/Sem6/Ai/Project"
+          url: "https://github.com/Mohsin-Ali-Mirza/Cycle-Gans-Style-Transfer"
         }
         //  you can add extra buttons here.
       ]

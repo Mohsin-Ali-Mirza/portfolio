@@ -35,7 +35,7 @@ const greeting = {
   highlight_light: "Machine Learning Engineer",
 
   subTitle_dark_1:"A passionate  ",
-  subTitle_dark_2: " with 3+ years of experience in Unity, Unreal, C++, C#, AR/VR, 3D modeling, and UI design. Proven track record of developing exceptional games and applications for PC and mobile platforms.",
+  subTitle_dark_2: " with 2+ years of experience in Unity, Unreal, C++, C#, AR/VR, 3D modeling, and UI design. Proven track record of developing exceptional games and applications for PC and mobile platforms.",
   highlight_dark: "Game Developer",
   
   resumeLink:
@@ -349,13 +349,13 @@ const workExperiences = {
       date: "June 2023 – August 2023",
       desc: "",
       descBullets: [
-        " Utilized NLP methods (text classification, Transformers) to auto-map questions to relevant topics, enhancing system efficiency.",
-        " Implemented Content-Based Recommendation systems for improved question suggestions.",
-        " Developed an LLM-based chatbot using Falcon 7b model for tutoring and FAQs."
+        " Engineered Content-Based Recommendation systems, boosting the relevancy of suggested questions",
+        " Leveraged NLP methods (text classification, Transformers) to auto-map questions to relevant topics.",
+        " Utilized an LLM-based chatbot using Llama 7b model to deliver tutoring and handle FAQs"
       ]
     },
     {
-      role: "Unreal Developer Intern",
+      role: "Unreal Developer Bootcamp",
       company: "Reality Forge",
       companylogo: require("./assets/images/realityForgeLogo.png"),
       date: "Jan 2023 – Apr 2023",
@@ -366,14 +366,14 @@ const workExperiences = {
       ]
     },
     {
-      role: "Unity Developer Intern",
+      role: "Unity Developer Bootcamp",
       company: "Mindstorm Studios",
       companylogo: require("./assets/images/mindstormLogo.png"),
       date: "July 2022 – Sep 2022",
       desc: "",
       descBullets: [
         " Deployed a 3D hyper casual game with idle stacking game mechanic for Mindstorm Studios Summer Internship Program",
-        " Designed 2 brain teaser puzzles for the game to challenge the player"
+        "  Composed 2 brain teaser puzzles for the game to challenge the player and utilized object-oriented programming"
       ]
     },
 
